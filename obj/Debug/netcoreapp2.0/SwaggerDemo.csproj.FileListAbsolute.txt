@@ -1,0 +1,11 @@
+C:\Repos\SwaggerDemo\SwaggerDemo\bin\Debug\netcoreapp2.0\SwaggerDemo.deps.json
+C:\Repos\SwaggerDemo\SwaggerDemo\bin\Debug\netcoreapp2.0\SwaggerDemo.runtimeconfig.json
+C:\Repos\SwaggerDemo\SwaggerDemo\bin\Debug\netcoreapp2.0\SwaggerDemo.runtimeconfig.dev.json
+C:\Repos\SwaggerDemo\SwaggerDemo\bin\Debug\netcoreapp2.0\SwaggerDemo.dll
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.csprojResolveAssemblyReference.cache
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.csproj.CoreCompileInputs.cache
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.AssemblyInfoInputs.cache
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.AssemblyInfo.cs
+C:\Repos\SwaggerDemo\SwaggerDemo\bin\Debug\netcoreapp2.0\SwaggerDemo.pdb
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.dll
+C:\Repos\SwaggerDemo\SwaggerDemo\obj\Debug\netcoreapp2.0\SwaggerDemo.pdb
