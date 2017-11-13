@@ -19,7 +19,7 @@ namespace SwaggerDemo.Controllers
             new Customer { Id = 1, FirstName = "Hinault", LastName = "Romaric", EMail = "hr@gmail.com"},
             new Customer { Id = 2, FirstName = "Thomas", LastName = "Perrin", EMail = "thomas@outlook.com"},
             new Customer { Id = 3, FirstName = "Allan", LastName = "Croft", EMail = "allan.croft@crt.com"},
-            new Customer { Id = 3, FirstName = "Sahra", LastName = "Parker", EMail = "sahra@yahoo.com"},
+            new Customer { Id = 4 , FirstName = "Sahra", LastName = "Parker", EMail = "sahra@yahoo.com"},
        };
 
         // GET: api/Customers
