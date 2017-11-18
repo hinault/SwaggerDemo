@@ -56,6 +56,7 @@ namespace SwaggerDemo.Controllers
         
         // PUT: api/Customers/5
         [HttpPut("{id}")]
+        [ApiExplorerSettings(GroupName = "v2")]
         public IActionResult Update(int id, [FromBody]Customer customer)
         {
 
@@ -78,6 +79,7 @@ namespace SwaggerDemo.Controllers
         
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
+        [ApiExplorerSettings(GroupName = "v2")]
         public IActionResult Delete(int id)
         {
             var customer = Customers.FirstOrDefault(t => t.Id == id);

@@ -29,7 +29,19 @@ namespace SwaggerDemo
             services.AddSwaggerGen(c =>
           {
              c.SwaggerDoc("v1", new Info { Title = "SwaggerDemo", Version = "v1" });
+
+              c.SwaggerDoc("v2", new Info
+             {
+                Version = "v2",
+                Title = "SwaggerDemo API",
+                Description = "",
+                TermsOfService = "None",
+                Contact = new Contact { Name = "Hinault Romaric", Email = "", Url = "http://rdonfack.developpez.com/" },
+                License = new License { Name = "Apache 2.0", Url = "http://www.apache.org" }
+            });
+
            });
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
