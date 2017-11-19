@@ -26,7 +26,7 @@ namespace SwaggerDemo
         {
             services.AddMvc();
 
-            services.AddSwaggerGen(c =>
+         services.AddSwaggerGen(c =>
           {
              c.SwaggerDoc("v1", new Info { Title = "SwaggerDemo", Version = "v1" });
 
@@ -34,10 +34,19 @@ namespace SwaggerDemo
              {
                 Version = "v2",
                 Title = "SwaggerDemo API",
-                Description = "",
+                Description = "Customers API to demo Swagger",
                 TermsOfService = "None",
-                Contact = new Contact { Name = "Hinault Romaric", Email = "", Url = "http://rdonfack.developpez.com/" },
-                License = new License { Name = "Apache 2.0", Url = "http://www.apache.org" }
+                Contact = new Contact 
+                { 
+                    Name = "Hinault Romaric", 
+                    Email = "hinault@monsite.com", 
+                    Url = "http://rdonfack.developpez.com/"
+                },
+                License = new License
+                 { 
+                     Name = "Apache 2.0", 
+                     Url = "http://www.apache.org"
+                 }
             });
 
            });
@@ -52,6 +61,7 @@ namespace SwaggerDemo
              app.UseSwaggerUI(c =>
              {
                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SwaggerDemo v1");
+                c.SwaggerEndpoint("/swagger/v2/swagger.json", "SwaggerDemo v2");
              });
 
             app.UseMvc();

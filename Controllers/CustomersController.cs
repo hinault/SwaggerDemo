@@ -31,6 +31,9 @@ namespace SwaggerDemo.Controllers
 
         // GET: api/Customers/5
         [HttpGet("{id}", Name = "GetById")]
+        [ProducesResponseType(typeof(Customer), 200)]
+        [ProducesResponseType(typeof(NotFoundResult), 404)]
+        [ProducesResponseType(typeof(void), 500)]
         public IActionResult GetById(int id)
         {
             var custormer = Customers.FirstOrDefault(c => c.Id == id);

@@ -12652,15 +12652,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Repos\\SwaggerDemo\\SwaggerDemo\\SwaggerDemo.csproj",
+      "projectUniqueName": "c:\\Repos\\SwaggerDemo\\SwaggerDemo\\SwaggerDemo.csproj",
       "projectName": "SwaggerDemo",
-      "projectPath": "C:\\Repos\\SwaggerDemo\\SwaggerDemo\\SwaggerDemo.csproj",
+      "projectPath": "c:\\Repos\\SwaggerDemo\\SwaggerDemo\\SwaggerDemo.csproj",
       "packagesPath": "C:\\Users\\owner1\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\SwaggerDemo\\SwaggerDemo\\obj\\",
+      "outputPath": "c:\\Repos\\SwaggerDemo\\SwaggerDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12696,13 +12693,13 @@
             "version": "2.0.0",
             "autoReferenced": true
           },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "1.0.0"
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "1.0.0"
           }
         },
         "imports": [
