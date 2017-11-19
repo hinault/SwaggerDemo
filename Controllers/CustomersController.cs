@@ -29,7 +29,13 @@ namespace SwaggerDemo.Controllers
             return Customers;
         }
 
-        // GET: api/Customers/5
+        /// <summary>
+        /// Retourne un client specifique à partir de son id
+        /// </summary>
+        /// <remarks>RAS</remarks>
+        /// <response code="200">client selectionné</response>
+        /// <response code="400">client introuvable pour l'id specifié</response>
+        /// <response code="500">Oops! le service est indisponible pour le moment</response>
         [HttpGet("{id}", Name = "GetById")]
         [ProducesResponseType(typeof(Customer), 200)]
         [ProducesResponseType(typeof(NotFoundResult), 404)]
