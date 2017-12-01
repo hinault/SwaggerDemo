@@ -24,6 +24,7 @@ namespace SwaggerDemo.Controllers
 
         // GET: api/Customers
         [HttpGet]
+        [ApiExplorerSettings(IgnoreApi = true)]
         public IEnumerable<Customer> GetAll()
         {
             return Customers;
@@ -90,6 +91,7 @@ namespace SwaggerDemo.Controllers
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
         [ApiExplorerSettings(GroupName = "v2")]
+        
         public IActionResult Delete(int id)
         {
             var customer = Customers.FirstOrDefault(t => t.Id == id);

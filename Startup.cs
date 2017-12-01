@@ -54,7 +54,7 @@ namespace SwaggerDemo
               var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "SwaggerDemo.xml");
 
               c.IncludeXmlComments(filePath);
-
+        
           });
 
           
@@ -64,12 +64,16 @@ namespace SwaggerDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseStaticFiles();
+
              app.UseSwagger();
 
              app.UseSwaggerUI(c =>
              {
                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SwaggerDemo v1");
                 c.SwaggerEndpoint("/swagger/v2/swagger.json", "SwaggerDemo v2");
+
+                 c.InjectStylesheet("/swagger-ui/css/custom.css");
              });
 
             app.UseMvc();

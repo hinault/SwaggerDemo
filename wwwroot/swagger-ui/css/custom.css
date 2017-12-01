@@ -1,0 +1,13 @@
+﻿
+.swagger-section #header {
+    border-bottom: 1px solid #000000;
+    font-style: normal;
+    font-weight: 400;
+    background-color: cornflowerblue;
+}
+.swagger-section #select_document {
+    background: blueviolet;
+}
+.logo__title {
+    display: none;
+}
